@@ -64,4 +64,4 @@ fun findReflection(s: List<String>, targetDiff: Int = 0): Map<String, List<Int>>
         if (diff == targetDiff) v.add(ver + 1)
     }
     return mapOf(Pair("h", h), Pair("v", v.toList()))
-}git
+}
